@@ -8,66 +8,33 @@
 
 public class Song {
    public static void main(String[] args){
-      System.out.println("There was an old woman who swallowed a fly.");
-      dontKnowWhy();
-      perhapsDie();
+      verseOne();
       
-      System.out.println("");
+      blankLine();
       
-      System.out.println("There was an old woman who swallowed a spider,");
-      System.out.println("That wriggled and iggled and jiggled inside her.");
-      catchTheFly();
-      dontKnowWhy();
-      perhapsDie();
+      verseTwo();
+            
+      blankLine();
       
-      System.out.println("");
+      verseThree();
       
-      System.out.println("There was an old woman who swallowed a bird,");
-      System.out.println("How absurd to swallow a bird.");
-      catchTheSpider();
-      catchTheFly();
-      dontKnowWhy();
-      perhapsDie();
-      
-      System.out.println("");
+      blankLine();
 
-      System.out.println("There was an old woman who swallowed a cat,");
-      System.out.println("Imagine that to swallow a cat.");
-      catchTheBird();
-      catchTheSpider();
-      catchTheFly();
-      dontKnowWhy();
-      perhapsDie();
+      verseFour();
       
-      System.out.println("");
+      blankLine();
       
-      System.out.println("There was an old woman who swallowed a dog,");
-      System.out.println("What a hog to swallow a dog.");
-      catchTheCat();
-      catchTheBird();
-      catchTheSpider();
-      catchTheFly();
-      dontKnowWhy();
-      perhapsDie();
+      verseFive();
 
-      System.out.println("");
+      blankLine();
       
-      System.out.println("There was an old woman who swallowed a bear,");
-      System.out.println("What a big scare to swallow a bear.");
-      System.out.println("She swallowed the bear to catch the dog,");
-      catchTheCat();
-      catchTheBird();
-      catchTheSpider();
-      catchTheFly();
-      dontKnowWhy();
-      perhapsDie();
+      verseSix();
 
-      System.out.println("");
+      blankLine();
       
-      System.out.println("There was an old woman who swallowed a horse,");
-      System.out.println("She died of course.");
+      verseSeven();
 
-   } 
+   }    
  
    public static void perhapsDie() {
       System.out.println("Perhaps she'll die.");
@@ -92,6 +59,69 @@ public class Song {
    public static void catchTheCat() {
       System.out.println("She swallowed the dog to catch the cat,");
    }
-}   
-           
    
+   public static void blankLine() {
+      System.out.println("");
+   } 
+   
+   public static void verseOne() {
+      System.out.println("There was an old woman who swallowed a fly.");
+      dontKnowWhy();
+      perhapsDie();     
+   }
+   
+   public static void verseTwo() {
+      System.out.println("There was an old woman who swallowed a spider,");
+      System.out.println("That wriggled and iggled and jiggled inside her.");
+      catchTheFly();
+      dontKnowWhy();
+      perhapsDie();
+   }         
+
+   public static void verseThree() {
+      System.out.println("There was an old woman who swallowed a bird,");
+      System.out.println("How absurd to swallow a bird.");
+      catchTheSpider();
+      catchTheFly();
+      dontKnowWhy();
+      perhapsDie();              
+   }
+   
+   public static void verseFour() {
+      System.out.println("There was an old woman who swallowed a cat,");
+      System.out.println("Imagine that to swallow a cat.");
+      catchTheBird();
+      catchTheSpider();
+      catchTheFly();
+      dontKnowWhy();
+      perhapsDie();
+   }
+   
+   public static void verseFive() {
+      System.out.println("There was an old woman who swallowed a dog,");
+      System.out.println("What a hog to swallow a dog.");
+      catchTheCat();
+      catchTheBird();
+      catchTheSpider();
+      catchTheFly();
+      dontKnowWhy();
+      perhapsDie();
+   }
+   
+   public static void verseSix() {
+      System.out.println("There was an old woman who swallowed a bear,");
+      System.out.println("What a big scare to swallow a bear.");
+      System.out.println("She swallowed the bear to catch the dog,");
+      catchTheCat();
+      catchTheBird();
+      catchTheSpider();
+      catchTheFly();
+      dontKnowWhy();
+      perhapsDie();      
+   }
+   
+   public static void verseSeven() {
+      System.out.println("There was an old woman who swallowed a horse,");
+      System.out.println("She died of course.");
+   }               
+}               
